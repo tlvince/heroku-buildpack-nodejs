@@ -178,5 +178,5 @@ echo "export PATH=\"\$HOME/bin:\$HOME/node_modules/.bin:\$PATH\"" > $BUILD_DIR/.
 
 echo "-----> Building Wintersmith site"
 PATH="$HOME/bin:$HOME/node_modules/.bin:$PATH"
-make
+make heroku
 echo "Wintersmith site built" | indent
